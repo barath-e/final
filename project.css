@@ -126,4 +126,22 @@ img{
         width:150px;
     }
 }
+@media screen and (max-width:399px) {
+    .all{
+        width: 100%;
+        text-align : center;
+        transform: translate( -20px, -40px);       
+    }
+    .images{
+        width:100%;
+        position: absolute;
+        bottom :2%; 
+        display: flex;
+        right: 4px;
+        justify-content: center;
+    }
+    img{
+        width:150px;
+    }
+}
 
